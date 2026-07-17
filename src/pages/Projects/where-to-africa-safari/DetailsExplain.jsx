@@ -306,7 +306,7 @@ export default function DetailsExplain() {
         </div>
         <div className="flex justify-center my-10">
           <Link
-            href="http://wheretoafrica.manoramaseoservice.com/"
+            href="https://whereto.africa/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#3c4655] font-aviner text-white text-sm px-8 py-3 uppercase rounded-sm hover:bg-transparent border border-[#3c4655] hover:border hover:text-[#ab7e47] hover:border-[#ab7e47]  transition cursor-pointer tracking-widest duration-300"
