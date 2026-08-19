@@ -90,7 +90,7 @@ export default function Services() {
 
   return (
     <section ref={ref} className="w-full bg-[#f5f5f5] py-24">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-8">
         {/* HEADER */}
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <p className="text-sm uppercase tracking-widest text-[#3c4655] mb-3">
@@ -145,13 +145,13 @@ export default function Services() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
                   viewport={{ once: true }}
-                  className={`w-[45%] mt-10 bg-[#1c2b39] text-white p-8 rounded-xl shadow-lg ${
+                  className={`w-[45%] mt-10 bg-[#1c2b39] text-white p-4 md:p-8 rounded-xl shadow-lg ${
                     index % 2 === 0
                       ? "mr-12 translate-x-16"
                       : "ml-12 -translate-x-16"
                   }`}
                 >
-                  <h3 className="text-[#ab7e47] text-2xl font-bold mb-2">
+                  <h3 className="text-[#ab7e47] text-xl md:text-2xl font-bold mb-2">
                     {step.id}
                   </h3>
                   <h2 className="font-semibold mb-4 text-xl">{step.title}</h2>

@@ -12,14 +12,14 @@ import Image from "next/image";
 const AboutMe = () => {
   return (
     <>
-      <div className="relative h-[90vh] bg-[#3c4655]">
+      <div className="relative h-[60vh] sm:h-[70vh] lg:h-[90vh] bg-[#3c4655]">
         <Image
           src={"/images/about-new-banner.webp"}
           alt={"Banner Image"}
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className="object-cover object-[20%_center] sm:object-center"
         />
       </div>
       <AboutBanner />

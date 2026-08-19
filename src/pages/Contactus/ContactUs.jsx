@@ -139,7 +139,6 @@ export default function ContactPage() {
     }
   };
 
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -210,7 +209,7 @@ export default function ContactPage() {
         </div>
 
         {/* Contact Section */}
-        <div className="grid lg:grid-cols-3 gap-8 mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8 mt-12 sm:mt-16 lg:mt-20">
           {/* Left */}
           <div className="space-y-6">
             <div className="bg-white p-8 shadow-sm rounded-md">
@@ -294,8 +293,8 @@ export default function ContactPage() {
           </div>
 
           {/* Form */}
-          <div className="lg:col-span-2 bg-white shadow-sm rounded-md p-10">
-            <h3 className="font-cormorant text-4xl text-[#3c4655] mb-8">
+          <div className="lg:col-span-2 bg-white shadow-sm rounded-md p-4 md:p-10">
+            <h3 className="font-cormorant text-2xl md:text-4xl text-[#3c4655] mb-8">
               Send Me a Message
             </h3>
 
