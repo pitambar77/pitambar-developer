@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Banner
-        imageUrl={"/images/home-banner.webp"}
+        imageUrl={"/images/pitambar-tech-banner.webp"}
         title={"Hi, I'm Pitambar"}
         subtitle={
           "MERN Stack Developer with 2+ years of experience building modern web applications using React, Next.js, Node.js, and MongoDB."
